@@ -1,5 +1,5 @@
 <?php
-require_once 'config/database-glitch.php';
+require_once 'config/database.php';
 
 $pdo = getDBConnection();
 $message = '';

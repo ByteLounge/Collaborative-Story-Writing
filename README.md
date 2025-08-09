@@ -21,14 +21,14 @@ A simple and elegant collaborative story writing platform built with PHP, MySQL,
 
 ## Installation
 
-### **Option 1: Local Development (XAMPP/WAMP)**
+### 1. Database Setup
 
-#### 1. Database Setup
 1. Open your MySQL client (phpMyAdmin, MySQL Workbench, or command line)
 2. Import the `database.sql` file to create the database and tables
 3. The database will be created with sample data
 
-#### 2. Configuration
+### 2. Configuration
+
 1. Edit `config/database.php` to match your database credentials:
    ```php
    define('DB_HOST', 'localhost');
@@ -37,34 +37,17 @@ A simple and elegant collaborative story writing platform built with PHP, MySQL,
    define('DB_PASS', '');      // Your MySQL password
    ```
 
-#### 3. Web Server Setup
+### 3. Web Server Setup
+
 1. Place all files in your web server directory (e.g., `htdocs` for XAMPP)
 2. Ensure your web server can access the files
 3. Make sure PHP is properly configured
 
-#### 4. Access the Application
+### 4. Access the Application
+
 1. Start your web server and MySQL service
 2. Navigate to `http://localhost/collaborative-story-platform/`
 3. The application should load with sample stories
-
-### **Option 2: Free Online Hosting (Glitch)**
-
-For free online hosting, see the complete guide in `GLITCH_DEPLOYMENT.md`:
-
-1. **Quick Deploy:**
-   - Upload your project to GitHub
-   - Import to Glitch: [glitch.com](https://glitch.com)
-   - Your app will be live at: `https://your-project-name.glitch.me`
-
-2. **Features on Glitch:**
-   - ✅ Free hosting with HTTPS
-   - ✅ Free MySQL database
-   - ✅ Automatic deployments
-   - ✅ Real-time collaboration
-
-3. **Test Your Deployment:**
-   - Visit `/test.php` to verify everything works
-   - Check logs for any issues
 
 ## File Structure
 

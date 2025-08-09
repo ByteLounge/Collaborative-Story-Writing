@@ -1,8 +1,5 @@
 <?php
-require_once 'config/database-glitch.php';
-
-// Initialize database tables
-initializeDatabase();
+require_once 'config/database.php';
 
 $pdo = getDBConnection();
 $message = '';
