@@ -151,6 +151,12 @@ collaborative-story-platform/
 - Edge
 - Mobile browsers
 
+## UI
+<img width="1255" height="864" alt="Screenshot 2025-08-09 133822" src="https://github.com/user-attachments/assets/96c42d44-f0f2-42a4-a2fa-67f872797321" />
+
+<img width="844" height="865" alt="Screenshot 2025-08-09 133859" src="https://github.com/user-attachments/assets/2c0e60c6-0a54-41cd-95d7-3e9c71b8b328" />
+
+
 ## License
 
 This project is open source and available under the MIT License.
