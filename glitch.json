@@ -1,0 +1,19 @@
+{
+  "install": "composer install",
+  "start": "php -S 0.0.0.0:$PORT",
+  "watch": {
+    "install": {
+      "include": [
+        "^package\\.json$",
+        "^composer\\.json$"
+      ]
+    },
+    "restart": {
+      "include": [
+        "\\.php$",
+        "^composer\\.json$"
+      ]
+    },
+    "throttle": 1000
+  }
+}

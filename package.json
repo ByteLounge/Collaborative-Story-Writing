@@ -1,0 +1,15 @@
+{
+  "name": "collaborative-story-platform",
+  "version": "1.0.0",
+  "description": "A collaborative story writing platform built with PHP and MySQL",
+  "main": "index.php",
+  "scripts": {
+    "start": "php -S 0.0.0.0:$PORT"
+  },
+  "keywords": ["collaborative", "story", "writing", "php", "mysql"],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": "18.x"
+  }
+}
